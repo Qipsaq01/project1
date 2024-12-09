@@ -1,0 +1,19 @@
+.info-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #fff;
+  gap: 50px;
+  border: 1px solid #fff;
+
+}
+
+.info-one {
+  width: 400px;
+  border: 1px solid #fff;
+}
+
+.info-two {
+  width: 100px;
+  border: 1px solid #fff;
+}

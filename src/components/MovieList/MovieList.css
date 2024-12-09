@@ -1,0 +1,46 @@
+.list-card {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  justify-items: center;
+  gap: 30px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  width: 350px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 5px 10px gray;
+  gap: 5px;
+  overflow-wrap: break-word;
+  padding-top: 20px;
+}
+
+.ava {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  flex: 7;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+  flex: 3;
+}
+
+.card img {
+  width: 250px;
+  height: 100%;
+  border-radius: 8px;
+  border: 1px solid #fff;
+}

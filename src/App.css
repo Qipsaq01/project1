@@ -1,0 +1,26 @@
+.movi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  height: 120px;
+  padding: 20px;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin: 0 auto;
+  border: 1px solid rgb(67, 65, 57);
+  width: 1300px;
+  min-height: 100vh;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgb(67, 65, 57);
+  margin-bottom: 20px;
+  padding: 20px;
+}

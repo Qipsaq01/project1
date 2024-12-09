@@ -1,0 +1,29 @@
+.input-box {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 1400px;
+  height: 100px;
+  border: 2px solid rgb(67, 65, 57);
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgb(67, 65, 57);
+}
+
+input {
+  width: 400px;
+  height: 15px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+button{
+    width: 80px;
+    height: 25px;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: gray;
+}
