@@ -9,6 +9,10 @@ const MovieInfo = ({ select, onBack }) => {
           Назад
         </button>
         <img src={select.Poster} alt={select.Title} />
+        <button className="look-btn">
+          <img className="logo" src="././public/click.webp" alt="play" />{" "}
+          <p>Смотреть</p>
+        </button>
       </div>
 
       <div className="info-two">
@@ -25,7 +29,7 @@ const MovieInfo = ({ select, onBack }) => {
         <p className="text">Writer: {select.Writer}</p>
         <p className="text">totalSeasons: {select.totalSeasons}</p>
         <p className="text">Director: {select.Director}</p>
-        <p className="text"> Plot: {select.Plot}</p>
+        <p className="text">Plot: {select.Plot}</p>
       </div>
     </div>
   );

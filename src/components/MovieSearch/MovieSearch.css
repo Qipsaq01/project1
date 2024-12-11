@@ -18,12 +18,12 @@ input {
   padding: 10px;
 }
 
-button{
+.btn-click {
     width: 80px;
     height: 25px;
     border-radius: 10px;
 }
 
-button:hover{
+.btn-click:hover{
     background-color: gray;
 }

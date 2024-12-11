@@ -28,7 +28,7 @@ const MovieList = ({ search }) => {
             <div className="ava">
               <img src={movie.Poster} />
             </div>
-            <div className="text">
+            <div className="card-text">
               <h3>{movie.Title}</h3>
               <p>{movie.Type}</p>
               <p>{movie.Year}</p>

@@ -3,6 +3,7 @@
   grid-template-columns: repeat(3, 350px);
   justify-items: center;
   gap: 30px;
+  position: relative;
 }
 
 .card {
@@ -28,7 +29,7 @@
   flex: 7;
 }
 
-.text {
+.card-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
