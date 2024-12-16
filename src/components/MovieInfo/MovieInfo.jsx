@@ -6,12 +6,12 @@ const MovieInfo = ({ select, onBack }) => {
     <div className="info-card">
       <div className="info-one">
         <button onClick={onBack} className="back-button">
-          Назад
+          Back
         </button>
         <img src={select.Poster} alt={select.Title} />
         <button className="look-btn">
           <img className="logo" src="././public/click.webp" alt="play" />{" "}
-          <p>Смотреть</p>
+          <p>Watch</p>
         </button>
       </div>
 
